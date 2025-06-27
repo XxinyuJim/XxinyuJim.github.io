@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>学术研究 on 演示站点</title>
+        <link>https://fyqldreamspace.cn/categories/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6/</link>
+        <description>Recent content in 学术研究 on 演示站点</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>xinyu</copyright>
+        <lastBuildDate>Thu, 26 Jun 2025 08:09:00 +0800</lastBuildDate><atom:link href="https://fyqldreamspace.cn/categories/%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>学术研究的测试文件</title>
+        <link>https://fyqldreamspace.cn/posts/second-post/</link>
+        <pubDate>Thu, 26 Jun 2025 08:09:00 +0800</pubDate>
+        
+        <guid>https://fyqldreamspace.cn/posts/second-post/</guid>
+        <description>&lt;p&gt;大家好，今天分享一个我最近看到的非常有意思的视频，希望能给大家带来一些启发。&lt;/p&gt;
+&lt;p&gt;视频内容如下：&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=440536414&amp;bvid=BV1P3KFzqEN6&amp;cid=1612869502&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;视频下方还可以写一些您的观后感或者笔记。&lt;/p&gt;
+&lt;p&gt;希望大家喜欢！&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
