@@ -19,23 +19,6 @@
                 href="https://fyqldreamspace.cn/en/categories/"
                 />
   </url><url>
-    <loc>https://fyqldreamspace.cn/en/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://fyqldreamspace.cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://fyqldreamspace.cn/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://fyqldreamspace.cn/en/"
-                />
-  </url><url>
     <loc>https://fyqldreamspace.cn/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -51,6 +34,23 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://fyqldreamspace.cn/en/tags/"
+                />
+  </url><url>
+    <loc>https://fyqldreamspace.cn/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://fyqldreamspace.cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://fyqldreamspace.cn/ar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fyqldreamspace.cn/en/"
                 />
   </url>
 </urlset>

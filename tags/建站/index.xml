@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>建站 on 风摇浅濑的梦想空间</title>
+        <link>https://fyqldreamspace.cn/tags/%E5%BB%BA%E7%AB%99/</link>
+        <description>Recent content in 建站 on 风摇浅濑的梦想空间</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>xinyu</copyright>
+        <lastBuildDate>Sat, 28 Jun 2025 10:00:00 +0800</lastBuildDate><atom:link href="https://fyqldreamspace.cn/tags/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我的第一篇文章</title>
+        <link>https://fyqldreamspace.cn/posts/6-post/</link>
+        <pubDate>Sat, 28 Jun 2025 10:00:00 +0800</pubDate>
+        
+        <guid>https://fyqldreamspace.cn/posts/6-post/</guid>
+        <description>&lt;img src="https://fyqldreamspace.cn/images/hello-world.jpg" alt="Featured image of post 我的第一篇文章" /&gt;&lt;h2 id=&#34;你好世界&#34;&gt;你好，世界！
+&lt;/h2&gt;&lt;p&gt;这里是文章的正文部分。从这里开始，您就可以用 Markdown 语法自由地写作了。&lt;/p&gt;
+&lt;p&gt;您可以写下您的研究方向、遇到的挑战，或是成功的喜悦。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

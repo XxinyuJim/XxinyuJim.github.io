@@ -7,7 +7,18 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>xinyu</copyright>
-        <lastBuildDate>Fri, 27 Jun 2025 08:09:00 +0800</lastBuildDate><atom:link href="https://fyqldreamspace.cn/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 28 Jun 2025 10:00:00 +0800</lastBuildDate><atom:link href="https://fyqldreamspace.cn/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我的第一篇文章</title>
+        <link>https://fyqldreamspace.cn/posts/6-post/</link>
+        <pubDate>Sat, 28 Jun 2025 10:00:00 +0800</pubDate>
+        
+        <guid>https://fyqldreamspace.cn/posts/6-post/</guid>
+        <description>&lt;img src="https://fyqldreamspace.cn/images/hello-world.jpg" alt="Featured image of post 我的第一篇文章" /&gt;&lt;h2 id=&#34;你好世界&#34;&gt;你好，世界！
+&lt;/h2&gt;&lt;p&gt;这里是文章的正文部分。从这里开始，您就可以用 Markdown 语法自由地写作了。&lt;/p&gt;
+&lt;p&gt;您可以写下您的研究方向、遇到的挑战，或是成功的喜悦。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>人生感悟的测试文件</title>
         <link>https://fyqldreamspace.cn/posts/5-post/</link>
         <pubDate>Fri, 27 Jun 2025 08:09:00 +0800</pubDate>
