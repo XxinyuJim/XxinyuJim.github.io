@@ -417,25 +417,17 @@
     <script>
         function checkPassword_ 0 () {
             var inputPassword = document.getElementById('password-input-0').value;
-            var correctHashedPassword = 'e16896063e2862c4d180a95aa5bc2063ae4713d5a1adb9255cba0c2bf1ad30e3';
             
             
-            async function sha256(message) {
-                const msgBuffer = new TextEncoder().encode(message);
-                const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
-                const hashArray = Array.from(new Uint8Array(hashBuffer));
-                const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-                return hashHex;
-            }
+            
+            var correctPassword = 508329; 
 
-            sha256(inputPassword + 'a-unique-salt-for-your-site').then(hashedInput => {
-                if (hashedInput === correctHashedPassword) {
-                    document.getElementById('protected-form-0').style.display = 'none';
-                    document.getElementById('protected-content-0').style.display = 'block';
-                } else {
-                    document.getElementById('error-message-0').style.display = 'block';
-                }
-            });
+            if (inputPassword === correctPassword) {
+                document.getElementById('protected-form-0').style.display = 'none';
+                document.getElementById('protected-content-0').style.display = 'block';
+            } else {
+                document.getElementById('error-message-0').style.display = 'block';
+            }
         }
     </script>
 </div>
