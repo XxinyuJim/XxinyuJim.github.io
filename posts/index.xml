@@ -41,7 +41,8 @@
             const correctPassword = 508329;
 
             const checkPassword = function() {
-                if (input.value === correctPassword) {
+                
+                if (input.value === String(correctPassword)) {
                     document.getElementById(&#39;protected-form-0&#39;).style.display = &#39;none&#39;;
                     document.getElementById(&#39;protected-content-0&#39;).style.display = &#39;block&#39;;
                 } else {
