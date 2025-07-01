@@ -7,7 +7,62 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>xinyu</copyright>
-        <lastBuildDate>Tue, 01 Jul 2025 12:52:19 +0800</lastBuildDate><atom:link href="https://fyqldreamspace.cn/categories/%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Jul 2025 16:59:19 +0800</lastBuildDate><atom:link href="https://fyqldreamspace.cn/categories/%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>私密博客</title>
+        <link>https://fyqldreamspace.cn/posts/private001/</link>
+        <pubDate>Tue, 01 Jul 2025 16:59:19 +0800</pubDate>
+        
+        <guid>https://fyqldreamspace.cn/posts/private001/</guid>
+        <description>&lt;p&gt;这是文章的公开部分，所有人都可以看到。
+我可以在这里写一些引言或者摘要。&lt;/p&gt;
+&lt;div class=&#34;protected-container&#34; style=&#34;border: 1px solid #ddd; padding: 20px; border-radius: 5px; margin-top: 20px; margin-bottom: 20px;&#34;&gt;&lt;div id=&#34;protected-form-0&#34; class=&#34;protected-form&#34;&gt;
+        &lt;p&gt;&lt;strong&gt;这篇文章受密码保护，请输入密码访问：&lt;/strong&gt;&lt;/p&gt;
+        &lt;input type=&#34;password&#34; id=&#34;password-input-0&#34; placeholder=&#34;请输入密码&#34; style=&#34;padding: 8px; border: 1px solid #ccc; border-radius: 3px;&#34;&gt;
+        &lt;button onclick=&#34;checkPassword_ 0 ()&#34; style=&#34;padding: 8px 12px; border: none; background-color: #007bff; color: white; border-radius: 3px; cursor: pointer;&#34;&gt;解锁&lt;/button&gt;
+        &lt;p id=&#34;error-message-0&#34; style=&#34;color: red; display: none; margin-top: 10px;&#34;&gt;密码错误！&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div id=&#34;protected-content-0&#34; class=&#34;protected-content&#34; style=&#34;display: none;&#34;&gt;
+        &lt;h2 id=&#34;这是一个受保护的标题&#34;&gt;这是一个受保护的标题
+&lt;/h2&gt;&lt;p&gt;这里是&lt;strong&gt;私密内容&lt;/strong&gt;，只有输入了正确的密码“your-secret-password”之后才能看到。&lt;/p&gt;
+&lt;p&gt;您可以像往常一样在这里使用 Markdown 语法，比如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;列表项目一&lt;/li&gt;
+&lt;li&gt;列表项目二&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;甚至可以嵌入图片和视频！&lt;/p&gt;
+
+    &lt;/div&gt;
+
+    &lt;script&gt;
+        function checkPassword_ 0 () {
+            var inputPassword = document.getElementById(&#39;password-input-0&#39;).value;
+            var correctHashedPassword = &#39;e16896063e2862c4d180a95aa5bc2063ae4713d5a1adb9255cba0c2bf1ad30e3&#39;;
+            
+            
+            async function sha256(message) {
+                const msgBuffer = new TextEncoder().encode(message);
+                const hashBuffer = await crypto.subtle.digest(&#39;SHA-256&#39;, msgBuffer);
+                const hashArray = Array.from(new Uint8Array(hashBuffer));
+                const hashHex = hashArray.map(b =&gt; b.toString(16).padStart(2, &#39;0&#39;)).join(&#39;&#39;);
+                return hashHex;
+            }
+
+            sha256(inputPassword + &#39;a-unique-salt-for-your-site&#39;).then(hashedInput =&gt; {
+                if (hashedInput === correctHashedPassword) {
+                    document.getElementById(&#39;protected-form-0&#39;).style.display = &#39;none&#39;;
+                    document.getElementById(&#39;protected-content-0&#39;).style.display = &#39;block&#39;;
+                } else {
+                    document.getElementById(&#39;error-message-0&#39;).style.display = &#39;block&#39;;
+                }
+            });
+        }
+    &lt;/script&gt;
+&lt;/div&gt;
+&lt;p&gt;这里是文章的另一段公开内容，它会显示在密码保护区域的下方。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>《最后的世界》系列</title>
         <link>https://fyqldreamspace.cn/posts/story002/</link>
         <pubDate>Tue, 01 Jul 2025 12:52:19 +0800</pubDate>
