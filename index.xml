@@ -18,7 +18,7 @@
 &lt;div class=&#34;protected-container&#34; style=&#34;border: 1px solid #ddd; padding: 20px; border-radius: 5px; margin-top: 20px; margin-bottom: 20px;&#34;&gt;&lt;div id=&#34;protected-form-0&#34; class=&#34;protected-form&#34;&gt;
         &lt;p&gt;&lt;strong&gt;这篇文章受密码保护，请输入密码访问：&lt;/strong&gt;&lt;/p&gt;
         &lt;input type=&#34;password&#34; id=&#34;password-input-0&#34; placeholder=&#34;请输入密码&#34; style=&#34;padding: 8px; border: 1px solid #ccc; border-radius: 3px;&#34;&gt;
-        &lt;button onclick=&#34;checkPassword_ 0 ()&#34; style=&#34;padding: 8px 12px; border: none; background-color: #007bff; color: white; border-radius: 3px; cursor: pointer;&#34;&gt;解锁&lt;/button&gt;
+        &lt;button id=&#34;unlock-button-0&#34; style=&#34;padding: 8px 12px; border: none; background-color: #007bff; color: white; border-radius: 3px; cursor: pointer;&#34;&gt;解锁&lt;/button&gt;
         &lt;p id=&#34;error-message-0&#34; style=&#34;color: red; display: none; margin-top: 10px;&#34;&gt;密码错误！&lt;/p&gt;
     &lt;/div&gt;
 
@@ -35,20 +35,29 @@
     &lt;/div&gt;
 
     &lt;script&gt;
-        function checkPassword_ 0 () {
-            var inputPassword = document.getElementById(&#39;password-input-0&#39;).value;
-            
-            
-            
-            var correctPassword = 508329; 
+        document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+            const button = document.getElementById(&#39;unlock-button-0&#39;);
+            const input = document.getElementById(&#39;password-input-0&#39;);
+            const correctPassword = 508329;
 
-            if (inputPassword === correctPassword) {
-                document.getElementById(&#39;protected-form-0&#39;).style.display = &#39;none&#39;;
-                document.getElementById(&#39;protected-content-0&#39;).style.display = &#39;block&#39;;
-            } else {
-                document.getElementById(&#39;error-message-0&#39;).style.display = &#39;block&#39;;
-            }
-        }
+            const checkPassword = function() {
+                if (input.value === correctPassword) {
+                    document.getElementById(&#39;protected-form-0&#39;).style.display = &#39;none&#39;;
+                    document.getElementById(&#39;protected-content-0&#39;).style.display = &#39;block&#39;;
+                } else {
+                    document.getElementById(&#39;error-message-0&#39;).style.display = &#39;block&#39;;
+                }
+            };
+
+            button.addEventListener(&#39;click&#39;, checkPassword);
+            
+            input.addEventListener(&#39;keydown&#39;, function(event) {
+                if (event.key === &#34;Enter&#34;) {
+                    event.preventDefault();
+                    checkPassword();
+                }
+            });
+        });
     &lt;/script&gt;
 &lt;/div&gt;
 &lt;p&gt;这里是文章的另一段公开内容，它会显示在密码保护区域的下方。&lt;/p&gt;
