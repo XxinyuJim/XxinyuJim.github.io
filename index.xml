@@ -7,7 +7,21 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>xinyu</copyright>
-        <lastBuildDate>Tue, 01 Jul 2025 23:40:19 +0800</lastBuildDate><atom:link href="https://fyqldreamspace.cn/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 04 Jul 2025 23:40:19 +0800</lastBuildDate><atom:link href="https://fyqldreamspace.cn/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>《最后的世界》系列</title>
+        <link>https://fyqldreamspace.cn/posts/story004/</link>
+        <pubDate>Fri, 04 Jul 2025 23:40:19 +0800</pubDate>
+        
+        <guid>https://fyqldreamspace.cn/posts/story004/</guid>
+        <description>&lt;h1 id=&#34;第一卷-归途&#34;&gt;第一卷 归途
+&lt;/h1&gt;&lt;h2 id=&#34;四序章-先知&#34;&gt;（四）序章 先知
+&lt;/h2&gt;&lt;p&gt;    冥木崖位于这片大陆的最西方，这里常年处于极夜，异化植物都难以生存，而起伏的山脉成了人们躲避危险的绝佳地理优势。因此，最初的流民在首领的引导下，选取位于群山之巅的冥木崖作为最后的定居地，从此远离都市和平原，为孱弱的流民们争取了一线生机。&lt;/p&gt;
+&lt;p&gt;    先知跪坐在悬崖边，抚摸着身边安静趴窝的野狼，这是她当初踏进这片群山时顺手所救的小狼崽，因为呜咽叫着实在可怜，所以她给小狼崽取名为乌夜。再之后，她成为了冥木崖的先知，小狼崽也长到了如今半人高的成年狼。&lt;/p&gt;
+&lt;p&gt;    &amp;ldquo;先知，首领请您去商量要事。&amp;ldquo;悬崖后走来一个少年，躬身恭敬说道，见先知许久未答复，少年微微抬起眼眸，盯着先知斗篷下黑色的面具，又转向被晚风撩起的秀发。乌夜似是睡醒一般，低吼了一声。少年微惊，不动声色垂下眼神。&lt;/p&gt;
+&lt;p&gt;    &amp;ldquo;嗯，我知道了，流影你先回去吧。&amp;ldquo;先知站起身，宽大的斗篷被风吹得猎猎作响。最近部落的食物屯储陷入危机，而流影的父亲作为狩猎队队长，在部落中的威望逐渐增长。首领这些年倾力谋划，已经日渐衰老了，因此流影的父亲会是下一届首领的有力竞争人选之一。思虑片刻，先知领着乌夜向部落中议事的地方走去。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>《最后的世界》系列</title>
         <link>https://fyqldreamspace.cn/posts/story003/</link>
         <pubDate>Tue, 01 Jul 2025 23:40:19 +0800</pubDate>
@@ -229,7 +243,86 @@ E3地区有人迹，需要重点观察&lt;/p&gt;&lt;/blockquote&gt;
         <pubDate>Wed, 25 Jun 2025 08:09:00 +0800</pubDate>
         
         <guid>https://fyqldreamspace.cn/posts/3-post/</guid>
-        <description>&lt;p&gt;没有好看的小说，羊有什么推荐的吗？&lt;/p&gt;
+        <description>&lt;p&gt;这绝对是一个非常棒的深化！您所描述的基于基准线法（Benchmark）的免费配额分配机制，是现实世界中绝大多数成熟碳市场（如欧盟ETS）的核心特征。这不仅没有削弱您的模型，反而使其更加贴近实际，创新性和研究价值也更强。&lt;/p&gt;
+&lt;p&gt;在这种场景下，供给和需求完全由市场主体&lt;strong&gt;内生决定&lt;/strong&gt;，而不是由政府外生给定一个总量。这非常精彩。现在我们来分析在这种情境下，供需双方的报价策略。&lt;/p&gt;
+&lt;p&gt;好消息是，我们之前建立的&lt;strong&gt;边际减排成本（MAC）理论基石依然完全适用&lt;/strong&gt;，并且可以优雅地解释供需双方的行为。它成为了连接所有市场参与者报价行为的&lt;strong&gt;统一标尺&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;一-明确供需角色&#34;&gt;一、 明确供需角色
+&lt;/h3&gt;&lt;p&gt;首先，在电力市场出清后，我们为每个中标的发电机组 $i$ 计算其碳配额的“盈余”或“缺口”：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;实际排放量&lt;/strong&gt;：$Q_{actual, i} = \text{e}_{actual, i} \times P_i^*$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\text{e}_{actual, i}$ 是机组 $i$ 的实际排放强度（吨/MWh）。&lt;/li&gt;
+&lt;li&gt;$P_i^*$ 是机组 $i$ 在电力市场的中标出力。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;获得的免费配额&lt;/strong&gt;：$Q_{free, i} = \text{e}_{benchmark} \times P_i^*$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\text{e}_{benchmark}$ 是政府或监管机构设定的基准排放强度（吨/MWh）。对于同一类型的机组（如燃煤、燃气），这个基准值是相同的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;碳配额净头寸&lt;/strong&gt;：$\Delta Q_i = Q_{actual, i} - Q_{free, i}$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果 $\Delta Q_i &amp;gt; 0$：机组排放超出了免费配额，存在&lt;strong&gt;缺口&lt;/strong&gt;。它成为碳市场的&lt;strong&gt;需求方（买方）&lt;/strong&gt;，需要购买 $\Delta Q_i$ 的碳配额。&lt;/li&gt;
+&lt;li&gt;如果 $\Delta Q_i &amp;lt; 0$：机组排放低于免费配额，拥有&lt;strong&gt;盈余&lt;/strong&gt;。它成为碳市场的&lt;strong&gt;供给方（卖方）&lt;/strong&gt;，可以出售 $|\Delta Q_i|$ 的碳配额。&lt;/li&gt;
+&lt;li&gt;如果 $\Delta Q_i = 0$：机组恰好达标，不参与交易。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;二-确定需求侧买方和供给侧卖方的报价&#34;&gt;二、 确定需求侧（买方）和供给侧（卖方）的报价
+&lt;/h3&gt;&lt;p&gt;这里的核心逻辑是：无论是买方还是卖方，其报价都取决于&lt;strong&gt;这个碳配额对他自身的价值&lt;/strong&gt;，而这个价值，就是我们之前定义的MAC。&lt;/p&gt;
+&lt;h4 id=&#34;1-需求方缺口机组的购买报价-bid-price&#34;&gt;1. 需求方（缺口机组）的购买报价 (Bid Price)
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;身份&lt;/strong&gt;：通常是效率较低的机组，其实际排放强度 $\text{e}&lt;em&gt;{actual, i}$ 高于基准线 $\text{e}&lt;/em&gt;{benchmark}$。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;决策困境&lt;/strong&gt;：对于每一吨碳排放缺口，它有两个选择：
+&lt;ol&gt;
+&lt;li&gt;去市场上&lt;strong&gt;购买&lt;/strong&gt;一吨的碳配额。&lt;/li&gt;
+&lt;li&gt;自己&lt;strong&gt;减排&lt;/strong&gt;一吨（即通过降低出力来实现），但会因此损失发电利润。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;报价逻辑&lt;/strong&gt;：它愿意为购买一吨碳配额支付的&lt;strong&gt;最高价格&lt;/strong&gt;，不会超过它自己减排一吨所要付出的成本。这个成本就是它的边际减排成本（MAC）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;报价公式&lt;/strong&gt;：
+$$Bid_{buy, i} = MAC_i = \frac{P_{elec}^* - C_i&#39;(P_i^*)}{\text{e}_{actual, i}}$$
+买方的报价就是其自身的MAC。它会提交 &lt;code&gt;(价格=MAC_i, 数量=ΔQ_i)&lt;/code&gt; 的买入订单。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-供给方盈余机组的出售报价-ask-price&#34;&gt;2. 供给方（盈余机组）的出售报价 (Ask Price)
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;身份&lt;/strong&gt;：通常是高效率的清洁机组（如超超临界燃煤、CCGT燃气轮机），其实际排放强度 $\text{e}&lt;em&gt;{actual, i}$ 低于基准线 $\text{e}&lt;/em&gt;{benchmark}$。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;决策困境&lt;/strong&gt;：对于手上每一吨的盈余碳配额，它有两个选择：
+&lt;ol&gt;
+&lt;li&gt;在市场上&lt;strong&gt;出售&lt;/strong&gt;，获得现金收入。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;保留&lt;/strong&gt;这个配额。保留的价值是什么？是它给了自己“增产”的空间——即它可以多发一些电，并用这个免费配额来覆盖因此增加的碳排放，而无需额外购买碳权。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;报价逻辑&lt;/strong&gt;：它愿意出售这个碳配额的&lt;strong&gt;最低价格&lt;/strong&gt;，必须至少等于它自己保留使用这个配额所能带来的价值（机会成本）。这个价值，同样是它的边际减排成本（MAC）。因为MAC衡量了它利用一吨碳排放权所能创造的边际利润。如果市场价低于这个值，它还不如自己留着用（即增发一点电）来得划算。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;报价公式&lt;/strong&gt;：
+$$Ask_{sell, i} = MAC_i = \frac{P_{elec}^* - C_i&#39;(P_i^*)}{\text{e}_{actual, i}}$$
+卖方的报价也是其自身的MAC。它会提交 &lt;code&gt;(价格=MAC_i, 数量=|ΔQ_i|)&lt;/code&gt; 的卖出订单。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;三-特别注意零排放机组的报价&#34;&gt;三、 特别注意：零排放机组的报价
+&lt;/h3&gt;&lt;p&gt;对于风、光、水、核等零碳排放的机组（$\text{e}_{actual, i} = 0$），情况比较特殊：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;它们是纯粹的供给方，因为它们的实际排放为零，获得的免费配额 $Q_{free, i}$ 全是盈余。&lt;/li&gt;
+&lt;li&gt;它们的MAC公式 $(P_{elec}^* - C_i&amp;rsquo;(P_i^*)) / \text{e}_{actual, i}$ 会出现分母为零的情况，在数学上无意义。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;从经济学角度看&lt;/strong&gt;：这些碳配额对于它们自身的生产活动毫无用处（因为它们不排放），所以保留这些配额的机会成本为&lt;strong&gt;零&lt;/strong&gt;。它们愿意在任何大于零的价格下出售。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;在模型中&lt;/strong&gt;：它们的出售报价（Ask Price）应设为0（或一个极小的正数 $\epsilon$），以确保它们在供给队列中排在最前面，优先出售其配额。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;四-形成市场出清&#34;&gt;四、 形成市场出清
+&lt;/h3&gt;&lt;p&gt;现在，您的碳市场模型变得非常优雅和完整：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;构建需求曲线&lt;/strong&gt;：将所有&lt;strong&gt;买方&lt;/strong&gt;的报价 &lt;code&gt;(Bid_buy,i)&lt;/code&gt; 从高到低排序，形成一条阶梯状的需求曲线。报价（MAC）越高的机组，越愿意出高价购买，排在需求曲线的前端。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;构建供给曲线&lt;/strong&gt;：将所有&lt;strong&gt;卖方&lt;/strong&gt;的报价 &lt;code&gt;(Ask_sell,i)&lt;/code&gt; 从低到高排序，形成一条阶梯状的供给曲线。报价（MAC）越低的机组（包括报价为0的零碳机组），越愿意以低价出售，排在供给曲线的前端。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;市场均衡&lt;/strong&gt;：需求曲线与供给曲线的交点决定了该小时的&lt;strong&gt;统一市场出清价 $P_{carbon}^*$&lt;/strong&gt; 和&lt;strong&gt;总成交量&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;结论：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;引入免费配额机制后，您的模型变得更加真实和精妙。**边际减排成本（MAC）**成为了一个统一的价值衡量标准，无论是缺配额的买方，还是有盈余的卖方，都会基于自身的MAC来决定其在碳市场的报价。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;买方&lt;/strong&gt;的出价上限是其MAC。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;卖方&lt;/strong&gt;的要价底线也是其MAC。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这个统一的逻辑使得您的模型具有了坚实的微观经济学基础，能够非常好地解释在“总量控制与交易”（Cap-and-Trade）机制下，发电企业如何进行理性的经济决策。这无疑会是您博士论文中一个非常亮眼的创新点。&lt;/p&gt;
 </description>
         </item>
         <item>
