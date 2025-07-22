@@ -7,7 +7,51 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>xinyu</copyright>
-        <lastBuildDate>Thu, 10 Jul 2025 23:40:19 +0800</lastBuildDate><atom:link href="https://fyqldreamspace.cn/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 22 Jul 2025 12:52:19 +0800</lastBuildDate><atom:link href="https://fyqldreamspace.cn/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>碳市场科普系列</title>
+        <link>https://fyqldreamspace.cn/posts/carbon_tutorial_001/</link>
+        <pubDate>Tue, 22 Jul 2025 12:52:19 +0800</pubDate>
+        
+        <guid>https://fyqldreamspace.cn/posts/carbon_tutorial_001/</guid>
+        <description>&lt;h1 id=&#34;碳市场入门指南一为什么我们需要给碳定价&#34;&gt;碳市场入门指南（一）：为什么我们需要给“碳”定价？
+&lt;/h1&gt;&lt;p&gt;欢迎来到我们的碳市场系列专栏！如果你常常听到“碳中和”、“碳达峰”或是“碳交易”，却对它们背后的逻辑感到好奇，那么这个专栏正是为你准备的。在接下来的几周里，我们将像剥洋葱一样，一层层为你揭开碳市场的神秘面纱。&lt;/p&gt;
+&lt;p&gt;今天，作为第一期，我们先来探讨一个最根本的问题：&lt;strong&gt;为什么我们需要一个“市场”来交易看不见、摸不着的“碳”？&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;一切的起点气候变化&#34;&gt;一切的起点：气候变化
+&lt;/h3&gt;&lt;p&gt;我们都知道，人类的工业活动、交通出行和能源消耗会产生大量的温室气体，其中最主要的就是二氧化碳（CO2）。这些气体像一床厚厚的被子罩在地球上，导致全球气温上升，引发极端天气、海平面上升等一系列问题。&lt;/p&gt;
+&lt;p&gt;为了应对这一全球性挑战，世界各国正努力减少碳排放。正如一些分析指出的，政府间气候变化专门委员会（IPCC）断言，世界必须在2030年前将人为二氧化碳排放量减半，才有可能减缓气候变化最严重的影响 &lt;a class=&#34;link&#34; href=&#34;https://www.climatedrift.com/p/carbon-offsets-explained-part-1?ref=climateu.earth&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;。实现这一目标需要全球性的协作和根本性的变革。&lt;/p&gt;
+&lt;p&gt;但问题是，如何激励政府、企业甚至个人去主动减排呢？&lt;/p&gt;
+&lt;h3 id=&#34;解决方案让污染付出代价&#34;&gt;解决方案：让污染付出“代价”
+&lt;/h3&gt;&lt;p&gt;想象一下，如果乱扔垃圾不需要付出任何代价，街道会变成什么样子？同样，如果排放二氧化碳是“免费”的，那么企业就缺少了投资清洁技术、减少排放的动力。&lt;/p&gt;
+&lt;p&gt;于是，一个天才的想法应运而生：&lt;strong&gt;为碳排放定价&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这就是**碳市场（Carbon Market）**的核心逻辑。它是一个为了减少温室气体排放而创建的政策工具和市场机制。简而言之，碳市场通过给二氧化碳（CO2）排放定价，将其转变为一种可以交易的商品或环境资产 &lt;a class=&#34;link&#34; href=&#34;https://medium.com/dcarbon/carbon-markets-101-d75bab67e160?source=read_next_recirc---------3---------------------0fd2c25d_a6c5_4397_a024_e4d3d57f09e5-------&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;当排放需要花钱时，经济规律就开始发挥作用了：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;高排放者&lt;/strong&gt;：需要为他们的排放行为付费，这促使他们寻求更清洁、更高效的生产方式。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;低排放者或减排者&lt;/strong&gt;：他们可以通过出售自己节约下来的排放“额度”来获得收益，这激励了更多减排项目的诞生（例如植树造林、开发可再生能源等）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;市场的两种口味强制与自愿&#34;&gt;市场的“两种口味”：强制与自愿
+&lt;/h3&gt;&lt;p&gt;在碳市场的世界里，主要有两种类型。你可以把它们想象成两种不同规则的“游戏”：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;强制性碳市场（Compliance Carbon Markets）&lt;/strong&gt;：通常由政府设立，面向重点排放行业的企业（如电力、钢铁、水泥等）。政府会设定一个排放总量的“帽子”（Cap），然后将排放配额分配或拍卖给企业。超额排放的企业必须从市场上购买配额，否则将面临罚款。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;自愿碳市场（Voluntary Carbon Markets）&lt;/strong&gt;：这个市场则向所有人开放。正如其名，这里的参与是自愿的。自愿碳市场已经成为企业和个人抵消其排放并支持可持续发展项目的有力工具 &lt;a class=&#34;link&#34; href=&#34;https://carbonaires.com/news-media/guide-to-carbon-trading&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;。比如，一家科技公司为了实现其“碳中和”承诺，会自愿购买由某个植树项目产生的“碳信用”，来抵消自身运营产生的排放。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这两个市场共同构成了当前全球应对气候变化的重要经济手段 &lt;a class=&#34;link&#34; href=&#34;https://carbonmarketwatch.org/publications/carbon-markets-101/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;结语&#34;&gt;结语
+&lt;/h3&gt;&lt;p&gt;所以，碳市场并非什么高深莫测的金融怪物。它的本质很简单：&lt;strong&gt;利用市场的力量，为污染定价，为减排提供奖励，最终引导整个社会走向一个更绿色、更低碳的未来。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是我们理解后续所有内容的基础。有了这个框架，我们就能更好地探索这个充满活力和挑战的领域。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;下一期预告&lt;/strong&gt;：我们将深入探讨这两种市场——强制性市场和自愿市场——它们分别是如何运作的，又有哪些关键的不同之处。&lt;/p&gt;
+&lt;p&gt;敬请期待！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>《最后的世界》系列</title>
         <link>https://fyqldreamspace.cn/posts/story005/</link>
         <pubDate>Thu, 10 Jul 2025 23:40:19 +0800</pubDate>
